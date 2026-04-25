@@ -1,0 +1,25 @@
+name: lead_crm_app
+description: A modern CRM app with Supabase backend
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase for backend
+  supabase_flutter: ^2.5.0
+
+  # Image picking functionality
+  image_picker: ^1.0.7
+
+  # File picker for exports
+  file_picker: ^8.0.0
+
+  # CSV export functionality
+  csv: ^5.1.1
+
+flutter:
+  uses-material-design: true
